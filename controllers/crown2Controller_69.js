@@ -4,11 +4,11 @@ exports.getHomepage = async (req,res) =>{
     let data;
     const [rows] = await category_69.fetchAll();
     data = rows;
-    //res.json(data);
-    res.render('crown2_69', 
+    res.json(data);
+    /*res.render('crown2_69', 
     { title: '劉又豪 408410669 (async/await)' , 
       data
-    });
+    });*/
 }
 
 

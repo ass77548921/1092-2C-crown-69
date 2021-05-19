@@ -10,7 +10,7 @@ const category_69=class category_69 {
     }
 
     static fetchAll(){
-        return db.execute('SELECT* from category_69');
+        return db.execute('SELECT * from category_69');
     }
 }
 
